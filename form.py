@@ -1,0 +1,10 @@
+name = input("Enter your Name: ")
+age = int(input("Enter your age: "))
+height = float(input("Enter your height: "))
+country = input("Enter your country: ")
+
+print(f"Hello {name.upper()}")
+print(f"You are {age} years old.")
+print(f"Your height is {height:.2f} ")
+print(f"You are from {country}")
+print(f"Your nickname is: {name[0:2]}{name[-1:-3:-1]} ".upper())
